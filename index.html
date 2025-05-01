@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Svadba – Kateřina & Michal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff8f2;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(315deg, #d9a7c7 0%, #fffcdc 74%);
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #b75d69;
+      font-family: 'Great Vibes', cursive;
+      font-size: 2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #584758;
+    }
+
+    .important {
+      background-color: #ffe8e8;
+      border-left: 4px solid #d94f4f;
+      padding: 1rem;
+      margin: 2rem 0;
+    }
+
+    form {
+      background: #fff;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+
+    input, select, textarea, button {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.6rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+
+    button {
+      background-color: #b75d69;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .gallery {
+      text-align: center;
+    }
+
+    .gallery img {
+      width: 150px;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kateřina & Michal</h1>
+    <p>Srdečne Vás pozývame na našu svadbu</p>
+  </header>
+
+  <section>
+    <h2>Kedy a kde</h2>
+    <p>Obrad: <strong>24. mája 2025 o 13:30</strong> v Hradec nad Moravicí.</p>
+    <p>Hostina: KD Vršovice</p>
+
+    <div class="important">
+      Prosíme, potvrďte svoju účasť do <strong>10. mája 2025</strong>.
+    </div>
+
+    <h2>Program</h2>
+    <ul>
+      <li>13:30 – Obrad</li>
+      <li>15:00 – Obed</li>
+      <li>16:00 – Torta</li>
+      <li>16"30 – Prvý tanec</li>
+      <li>18:45 – Rauty</li>
+      <li>23:30 – Čepčenie</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Potvrdenie účasti (RSVP)</h2>
+    <p>Vyplňte, prosím, nasledujúci formulár:</p>
+
+    <form action="https://docs.google.com/forms/d/e/[TVOJE_FORM_ID]/formResponse" method="POST" target="_blank">
+      <input type="text" name="entry.1234567890" placeholder="Vaše meno" required>
+      <select name="entry.0987654321" required>
+        <option value="">Zúčastníte sa?</option>
+        <option value="Áno">Áno, prídem</option>
+        <option value="Nie">Nie, nemôžem prísť</option>
+      </select>
+      <textarea name="entry.1122334455" placeholder="Poznámky" rows="3"></textarea>
+      <button type="submit">Odoslať</button>
+    </form>
+
+    <p><small>Formulár sa odošle cez Google Forms.</small></p>
+  </section>
+
+  <section>
+    <h2>Galéria</h2>
+    <p>Fotky zo svadby nájdete po udalosti na tomto odkaze:</p>
+    <div class="gallery">
+      <a href="https://photos.app.goo.gl/giYtfBXHAiJJAYFw6" target="_blank">➡ Otvoriť galériu</a>
+      <p>Pošlite nám Vaše fotky:</p>
+      <img src="qr-kod-galeria.png" alt="QR kód do galérie" />
+    </div>
+  </section>
+
+  <section>
+    <h2>Kontakt</h2>
+    <p>V prípade otázok:</p>
+    <p>Michal – <a href="tel:+421905102420">+421 905 102 420</a></p>
+    <p>Katka – <a href="tel:+420736102220">+420 736 102 220</a></p>
+  </section>
+
+  <footer>
+    Ďakujeme, že ste súčasťou nášho výnimočného dňa ♥
+  </footer>
+
+</body>
+</html>
